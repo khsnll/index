@@ -1,26 +1,191 @@
-/*bagian header*/
-.wrap .header{
-	background: gray;
-	/*height: 50px;*/
-	padding: 2px 10px;
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
 }
- 
-/*akhir header*/
- 
-/*bagian menu*/
-.wrap .menu{
-	background: black;
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(216, 219, 223);
 }
- 
-.wrap .menu ul{
-	padding: 0;
-	margin: 0;
-	background: black;
-	overflow: hidden;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: black;
+    border-bottom: 1px solid white;
 }
- 
-.wrap .menu ul li{
-	float: left;
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul {
 	list-style-type: none;
-	padding: 10px;
+	display: inline-block;
+	padding: 10px 25px;
+}
+nav ul a {
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+nav ul a:hover {
+	color: rgb(13, 173, 194);
+	transition: 0,1s;
+
+}
+.button {
+    background-color: rgb(199, 212, 212);
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+.button:hover {
+    transform: scale(1.2);
+    border: 2px solid rgb(13, 173, 194);
+    background-color: transparent;
+}
+.image {
+    width: 30%;
+    height: 110%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+.content {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    transform: translateX(10%);
+}
+h5 {
+    color: black;
+    letter-spacing: 0px;
+    font-size: 50px;
+}
+span {
+    color: rgb(13, 173, 194);
+}
+h4 {
+    color: black;
+    font-size: 65px;
+    margin: 1% 0 1px;
+}
+h2 {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+.About {
+    width: 100%;
+    padding: 100px 0;
+    background-color: rgb(216, 219, 223);
+}
+.About-me {
+    margin: 1px auto;
+    align-items: center;
+    justify-content: center;
+}
+.about-text {
+    width: 50% auto;
+    margin-bottom: 50px;
+}
+.about-text h2 {
+    color: rgb(13, 173, 194);
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+
+}
+.about-text p {
+    color: black;
+    font-size: 31px;
+    width: 50% center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-text h2 {
+    margin-bottom: 50px;
+}
+.sosial{
+    display: flex;
+    justify-content: center;
+
+}
+.social-media-icon a{
+    width: 50%;
+    height: 1px;
+    background: transparent;
+    color: #fff;
+    border-radius: px;   
+}
+
+a.social-media-icon:hover{
+    background: #fff!important;
+    color: transparent;
+}
+.Project {
+    background-color: rgb(216, 219, 223);
+    width: 100%;
+    padding: 100px 0;
+
+}
+.title h2 {
+    color: black;
+    font-size: 85px;
+    width: 100%;
+    margin-bottom: 50px auto;
+    text-align: center;
+}
+.Project h3 {
+    color: black;
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: transparent;
+    border-radius: 20px;
+    margin: 35px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 5px solid rgb(13, 173, 194);
+
+}
+.card h5 {
+    color: black;
+    font-size: 33px;
+    margin-bottom: 15px;
+
+}
+.pra p {
+    color: black;
+    font-size: 23px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    text-align: justify;
+    
 }
