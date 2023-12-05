@@ -50,28 +50,26 @@ nav ul a:hover {
     flex-direction: column;
     
 }
-.contact-text h2 {
+.tulisan h2 {
     color: black;
-    font-size: 85px;
+    font-size: 75px;
     width: 100%;
     margin-bottom: 23px auto;
-    text-align: center;
-    justify-content: center;
-    display: flex;
+
 }
-.contact-text h3 {
+.tulisan h3 {
     color: black;
-    font-size: 25px;
+    font-size: 78px;
     margin-bottom: 25px;
     text-align: center;
 
 }
-.sosial {
-    display: flex;
+.medsos {
+    display: inline;
 }
-.sosial a {
-    width: 45px;
-    height: 45px;
+.medsos i {
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +79,17 @@ nav ul a:hover {
     border: 2px solid white;
 
 }
-.sosial a:hover {
+.medsos i:hover {
+    display: inline;
+}
+.medsos i:hover {
     transform: scale(1.3);
     transition: 0.5s;
+    display: inline;
+}
+.medsos p {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;
 }
