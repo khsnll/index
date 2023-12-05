@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 .home {
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     background-color: rgb(216, 219, 223);
 }
@@ -40,56 +40,71 @@ nav ul a:hover {
 	color: rgb(13, 173, 194);
 	transition: 0,1s;
 }
-.contact-me {
-    color: black;
-    padding: 100px 0;
-    background-color: rgb(216, 219, 223);
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    
 }
-.tulisan h2 {
-    color: black;
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2 {
     font-size: 75px;
-    width: 100%;
-    margin-bottom: 23px auto;
-
-}
-.tulisan h3 {
-    color: black;
-    font-size: 78px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     text-align: center;
-
+    margin: 5px;
 }
-.medsos {
-    display: inline;
+.content p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
-.medsos i {
-    width: 80px;
-    height: 80px;
+.contactInfo {
+    width: 50%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.box .icon {
+    min-width: 75px;
+    height: 75px;
+    background: transparent;
+    display: flex;
     justify-content: center;
-    background-color: transparent;
-    margin: 22px 10px;
-    color: black;
-    border: 2px solid white;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+.text h3
+{
+    font-size: 25px;
+    margin-bottom: auto;
 
 }
-.medsos i:hover {
-    display: inline;
-}
-.medsos i:hover {
-    transform: scale(1.3);
-    transition: 0.5s;
-    display: inline;
-}
-.medsos p {
-    color: black;
-    font-size: 25px;
-    margin-bottom: 25px;
-    text-align: center;
+.text p {
+    font-size: 20px;
+    margin-top: auto;
 }

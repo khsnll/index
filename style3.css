@@ -4,26 +4,9 @@
     text-decoration: none;
 }
 .home {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-color: rgb(216, 219, 223);
-}
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 8%;
-    padding-left: 8%;
-    background-color: black;
-    border-bottom: 1px solid white;
-}
-.logo {
-    color: white;
-    font-size: 35px;
-    letter-spacing: 1px;
-    cursor: pointer;
 }
 nav ul {
 	list-style-type: none;
@@ -39,12 +22,23 @@ nav ul a {
 nav ul a:hover {
 	color: rgb(13, 173, 194);
 	transition: 0,1s;
-
 }
-.button:hover {
-    transform: scale(1.2);
-    border: 2px solid rgb(13, 173, 194);
-    background-color: transparent;
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: black;
+    border-bottom: 1px solid white;
 }
 .Project {
     background-color: rgb(216, 219, 223);
