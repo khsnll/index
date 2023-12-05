@@ -62,7 +62,8 @@ nav {
 .about-text h2 {
     margin-bottom: 50px;
 }
-.sosial{
+.sosial
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +71,8 @@ nav {
     height: 200px;
 
 }
-.sosial .social-media-icon{
+.sosial .social-media-icon
+{
     width: 50px;
     height: 50px;
     background-color: transparent;
@@ -83,10 +85,12 @@ nav {
     margin: 20px;
     transition: .5s ease;
 }
-.sosial .social-media-icon:hover {
+.sosial .social-media-icon:hover 
+{
     color:  rgb(13, 173, 194);
     transition: .5s ease;
 }
-.about-text span {
+.about-text span 
+{
     color: rgb(13, 173, 194);
 }
